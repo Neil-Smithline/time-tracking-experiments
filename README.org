@@ -1,0 +1,35 @@
+* Experiments In Time Tracking
+This repository is now and will likely always be a [[http://en.wikipedia.org/wiki/Work_in_progress][WIP]]. I plan to use this repository as a record of both my thoughts and experiments as well as a home for related software if any is needed.
+
+* Motivation
+It wasn't until I heard about the [[http://en.wikipedia.org/wiki/Quantified_Self][Quantified Self]] movement a few weeks ago that I started to contemplate combining my:
+  - Interest in bettering my time management skills.
+  - Love for gadgets, in this instance, my Android smartphone.
+  - Large yet ever growing love of [[http://orgmode.org][Org Mode]] for Emacs.
+  - Recent discovery of [[https://github.com/novoid/Memacs][Memacs]] and ongoing discussions with Memacs' author [[https://github.com/novoid][novoid]] (AKA: [[https://twitter.com/n0v0id][@n0v0id]]).
+  - Nerdy "talents" though I've hard them called other things...
+
+* My Goal
+Being an analytical kind of guy, my hope is that if I can keep accurate records of how I use my time I will be able to analyze and improve my time management skills going forward. Essentially, I am thinking that the best way for me to improve my time management skills is simply to better understand how I use my time. Once I understand that, designing strategies for better time management seems simple.
+
+* Not For Everyone
+*** Record Keeping Is Difficult
+Keeping detailed records of how you use your time is difficult. For starters, you need some means of recording your time usage with you at all times. This means you need to keep a notepad, a computer, a smartphone, a pad of stickies, or whatever with you at all times. This is a non-issue for me as I'm never far from my phone.
+
+*** Detailed Record Keeping Is Even More Difficulterer!
+While I won't know until I have some actual experience using the system, detailed record keeping can be difficult. My current thinking is that I want to record what I am doing about every 20 minutes. In order to make this task manageable, I won't try to subdivide a 20 minute block. When I'm notified, likely via some sort of recurring timer, I will record what I was doing when I was notified. If I've done several things in the 20 minutes prior to notification, they'll go unrecorded.
+
+My hope is that recording my activities every 20 minutes will give me a sufficiently accurate understanding of my time usage. Assuming that I'm asleep 8 hours a day, I should note my activities 3 times an hour for 16 hours. That's 48 records per day.
+
+I imagine that I'll end up with less than 48 records each day. I certainly can imagine myself ignoring the notification if I'm engrossed in something. I also wonder if I'll want to bother record keeping near the end of the day. That is my downtime and, at least at the moment, I don't see myself wishing to intrude upon it with record keeping.
+
+*** Detailed Time Usage Records Does Not Guarantee Better Time Management
+This entire project is based on the assumption that if I have better data about how I spend my time that it will lead to me developing better time management skills. If this assumption is wrong then this project will have been an exercise wasting time, the exact opposite of its goal. That said, I am certain that being able to analyze my time usage will lead towards me better managing my time.
+
+Ironically, it is my poor innate time perception that makes me confident that better data collection and analysis will lead to better time management. As a result of not having functional time perception, I've developed lots of compensatory strategies. Perhaps the most relevant strategy is that I am happy to run my life by the clock, provided that the clock has some means of notifying me to pay attention to it. Otherwise, I forget to look at the clock and end up behind schedule.
+
+Recognizing the above facts led me to start carrying a PDA in 1985. I have carried one faithfully ever since; replacing broken or lost ones within days. As such, I'm 100% convinced that if I can achieve sufficiently detailed records of my time, I will develop better time management skills.
+
+*** My Time Management Skills Are Already Perfect
+Lucky you. Mine aren't.
+
