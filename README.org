@@ -37,4 +37,4 @@ Lucky you. Mine aren't.
 The documentation for this project uses [[http://pages.github.com/][Github Pages]].
 
 Available Pages:
-  - See the documentation at [[http://neil-smithline.github.com/time-tracking-experiments/journal.org]]
+  - [[http://neil-smithline.github.com/time-tracking-experiments/journal.org][Working Journal]]
