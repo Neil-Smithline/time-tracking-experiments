@@ -39,3 +39,4 @@ I have some initial thoughts about the software stack that will be where I initi
 Testing to see if we have a reverse/prepend date tree work from capture template.
 ******* First journal entry [2012-07-18 Wed 20:20]
 Testing....
+ 
