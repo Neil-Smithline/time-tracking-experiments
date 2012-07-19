@@ -1,3 +1,13 @@
+* A Note About The Formatting
+The formatting of this page is rather crappy. There appears to be a bug in the =org-ruby= gem having to do with Org Mode timestamps in headings. Fixing the bug is pointless as I'm still waiting for Github to pull new features that I added to the =org-ruby= gem several months ago. 
+
+For example, I added support for converting five or more hyphens at the start of a line to be displayed as a horizontal rule. Specifically, an HTML =<hr/>= tag. The following line has five hyphens on it.
+
+-----
+
+Unless things have changed since the time of me writing this (<2012-07-18 Wed>), there is no horizontal rule between this paragraph and the previous one :-(
+
+I had initially thought about using Github's project wiki for this documentation but, to the best of my knowledge, that is not editable via Emacs =org-mode=. Being editable in =org-mode= is an absolute requirement of mine.
 
 * 2012
 *** 2012-07 July
