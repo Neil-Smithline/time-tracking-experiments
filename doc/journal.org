@@ -12,7 +12,7 @@ I had initially thought about using Github's project wiki for this documentation
 * 2012
 *** 2012-07 July
 ***** 2012-07-18 Wednesday
-******* Initial Thoughts About Software Stack [2012-07-18 Wed 20:29]
+******* Initial Thoughts About Software Stack <2012-07-18 Wed 20:29>
 I have some initial thoughts about the software stack that will be where I initially experiment, evaluate, and design. The software stack in reverse order is:
   - Org Mode & Emacs :: No explanation neceessary.
   - Memacs :: Will import the data into Emacs.
