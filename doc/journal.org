@@ -12,6 +12,10 @@ I had initially thought about using Github's project wiki for this documentation
 * 2012
 *** 2012-07 July
 ***** 2012-07-18 Wednesday
+******* Github Rendering Test For Timestamps In The Middle Of Headings [2012-07-18 Wed 21:05] imagine something useful here
+Perhaps the =org-ruby= gem works better when the timestamp is not at the end of the line. I'm not sure if Org Mode works correctly with that but checking Github is easier than checking Org Mode.
+
+PS: I can't do these tests locally as Github is using an old copy of the =org-ruby= gem that I don't have on my machine nor do I know how to get a copy of it.
 ******* Test for Github rendering of active rather than inactive timestamps in headings <2012-07-18 Wed 21:03>
 This entry has an active timestamp. That is, it uses =<= and =>= to dilineate the timestamp rather than the =[= and =]= of an inactive timestamp.
 ******* Initial Thoughts About Software Stack [2012-07-18 Wed 20:29]
