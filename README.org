@@ -33,6 +33,5 @@ Recognizing the above facts led me to start carrying a PDA in 1985. I have carri
 *** My Time Management Skills Are Already Perfect
 Lucky you. Mine aren't.
 
-* Repository Contents
-  - [[https://github.com/Neil-Smithline/time-tracking-experiments/tree/master/doc][Doc directory]]
-    - [[https://github.com/Neil-Smithline/time-tracking-experiments/blob/master/doc/journal.org][Journal of my thoughts and experiments]]
+* Documentation
+The documentation for this project uses [[http://pages.github.com/][Github Pages]]. See the documentation at [[https://github.com/Neil-Smithline/time-tracking-experiments/index.html]]
