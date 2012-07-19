@@ -34,4 +34,7 @@ Recognizing the above facts led me to start carrying a PDA in 1985. I have carri
 Lucky you. Mine aren't.
 
 * Documentation
-The documentation for this project uses [[http://pages.github.com/][Github Pages]]. See the documentation at [[https://github.com/Neil-Smithline/time-tracking-experiments/index.html]]
+The documentation for this project uses [[http://pages.github.com/][Github Pages]].
+
+Available Pages:
+  - See the documentation at [[http://neil-smithline.github.com/time-tracking-experiments/journal.org]]
