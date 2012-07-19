@@ -2,6 +2,16 @@
 * 2012
 *** 2012-07 July
 ***** 2012-07-18 Wednesday
+******* Initial Thoughts About Software Stack [2012-07-18 Wed 20:29
+I have some initial thoughts about the software stack that will be where I initially experiment, evaluate, and design. The software stack in reverse order is:
+  - Org Mode & Emacs :: No explanation neceessary.
+  - Memacs :: Will import the data into Emacs.
+  - GCal :: Will be online store of data in the form of events within a specific calendar.
+  - Time Recording Pro :: Android [[https://play.google.com/store/apps/details?id=com.dynamicg.timerecording.pro&feature=search_result#?t=W251bGwsMSwxLDEsImNvbS5keW5hbWljZy50aW1lcmVjb3JkaW5nLnBybyJd][app]] that will be input for activities. TRP has built-in integration with Gcal.
+  - Android Reminder/Notification App :: An Android app that will notify me every N minutes (current thoughts are N=20) that I need to update my activities in TRP. I've only begun looking for reminder apps. [[https://play.google.com/store/apps/details?id=com.googlecode.mindbell&feature=search_result#?t=W251bGwsMSwyLDEsImNvbS5nb29nbGVjb2RlLm1pbmRiZWxsIl0.][Mindfullness Bell]] and [[https://play.google.com/store/apps/details?id=net.dinglisch.android.taskerm&feature=search_result#?t=W251bGwsMSwyLDEsIm5ldC5kaW5nbGlzY2guYW5kcm9pZC50YXNrZXJtIl0.][Tasker]] are two possibilities that I've looked at.
+  - Custom Utility to convert Org Mode Tags into TRP Data :: TRP has native support for tasks and Org Mode supports tags. Having a 1-to-1 mapping between TRP tasks and Org Mode tags seems to provide many benefits. I do not believe (ie: I'm 99.99% certain) that there is an existing automated method to synchronize Org Mode tags and TRP tasks.
+******* Time Capturing Device [2012-07-18 Wed 20:26]
+        At least for the first go, I will focus on time capturing exclusively via my Android smartphone as I have that with me constantly. No effort will be spent trying to utilize other devices for time capture.
 ******* Test 2 [2012-07-18 Wed 20:21]
 Testing to see if we have a reverse/prepend date tree work from capture template.
 ******* First journal entry [2012-07-18 Wed 20:20]
