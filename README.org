@@ -1,3 +1,3 @@
 README
 
-See [[https://github.com/Neil-Smithline/time-tracking-experiments/blob/master/README.org][the README]] in the master branch.
+See the [[https://github.com/Neil-Smithline/time-tracking-experiments/blob/master/README.org][README]] in the master branch.
