@@ -1,0 +1,5 @@
+* Documentation Index For Time Tracking Experiments
+This is the documentation for the [[http://github.com][Github]] repository at [[https://github.com/Neil-Smithline/time-tracking-experiments]]. The [[https://github.com/Neil-Smithline/time-tracking-experiments/blob/master/README.org][README file]] in that repository contains an overview of the project.
+
+Documentation Pages:
+  - [[./journal.org][Working Journal]]

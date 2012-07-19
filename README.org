@@ -1,1 +1,3 @@
-This branch contains github pages doc
+README
+
+See the [[./index.org][index]].
