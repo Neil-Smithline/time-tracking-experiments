@@ -13,7 +13,7 @@ I had initially thought about using Github's project wiki for this documentation
 *** 2012-07 July
 ***** 2012-07-18 Wednesday
 ******* Drats!  [2012-07-18 Wed 21:11]
-The =org-ruby= gem seems broken even on headings with no timestamp in them.
+The =org-ruby= gem seems broken even on headings with no timestamp in them as displayed in this screenshot:
 [[https://github.com/Neil-Smithline/time-tracking-experiments/raw/master/doc/assets/org-ruby-heading-bug.png]]
 
 Being that the gem works for some headings and not for others I'm hopeful that I can figure out what the problem is. I sure wish there was better support for Org files in Github :-(
