@@ -34,5 +34,5 @@ Recognizing the above facts led me to start carrying a PDA in 1985. I have carri
 Lucky you. Mine aren't.
 
 * Repository Contents
-  - Doc directory
-    - Journal of my thoughts and experiments
+  - [[https://github.com/Neil-Smithline/time-tracking-experiments/tree/master/doc][Doc directory]]
+    - [[https://github.com/Neil-Smithline/time-tracking-experiments/blob/master/doc/journal.org][Journal of my thoughts and experiments]]
