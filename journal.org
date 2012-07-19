@@ -1,30 +1,6 @@
-* A Note About The Formatting
-The formatting of this page is rather crappy. There appears to be a bug in the =org-ruby= gem having to do with Org Mode timestamps in headings. Fixing the bug is pointless as I'm still waiting for Github to pull new features that I added to the =org-ruby= gem several months ago. 
-
-For example, I added support for converting five or more hyphens at the start of a line to be displayed as a horizontal rule. Specifically, an HTML =<hr/>= tag. The following line has five hyphens on it.
-
------
-
-Unless things have changed since the time of me writing this (<2012-07-18 Wed>), there is no horizontal rule between this paragraph and the previous one :-(
-
-I had initially thought about using Github's project wiki for this documentation but, to the best of my knowledge, that is not editable via Emacs =org-mode=. Being editable in =org-mode= is an absolute requirement of mine.
-
 * 2012
 *** 2012-07 July
 ***** 2012-07-18 Wednesday
-******* Drats!  [2012-07-18 Wed 21:11]
-The =org-ruby= gem seems broken even on headings with no timestamp in them as displayed in this screenshot:
-[[https://github.com/Neil-Smithline/time-tracking-experiments/raw/master/doc/assets/org-ruby-heading-bug.png]]
-
-Being that the gem works for some headings and not for others I'm hopeful that I can figure out what the problem is. I sure wish there was better support for Org files in Github :-(
-******* WTF?
-I wonder of the =org-ruby= gem is having problems unrelated to an existing timestamp.
-******* Github Rendering Test For Timestamps In The Middle Of Headings [2012-07-18 Wed 21:05] imagine something useful here
-Perhaps the =org-ruby= gem works better when the timestamp is not at the end of the line. I'm not sure if Org Mode works correctly with that but checking Github is easier than checking Org Mode.
-
-PS: I can't do these tests locally as Github is using an old copy of the =org-ruby= gem that I don't have on my machine nor do I know how to get a copy of it.
-******* Test for Github rendering of active rather than inactive timestamps in headings <2012-07-18 Wed 21:03>
-This entry has an active timestamp. That is, it uses =<= and =>= to dilineate the timestamp rather than the =[= and =]= of an inactive timestamp.
 ******* Initial Thoughts About Software Stack [2012-07-18 Wed 20:29]
 I have some initial thoughts about the software stack that will be where I initially experiment, evaluate, and design. The software stack in reverse order is:
   - Org Mode & Emacs :: No explanation neceessary.
