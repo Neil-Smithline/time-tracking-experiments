@@ -4,6 +4,8 @@ Journal
 
 #+STYLE: <style> .outline-2 { margin-left:15px;} .outline-3 { margin-left:15px;} .outline-4 { margin-left:15px;} .outline-5 { margin-left:15px;} .outline-6 { margin-left:15px;} h2 {font-size:160%; margin:5px 0 0 -15px;} h3 { font-size:145; margin:5px 0 0 -15px;} h4 { font-size:130%; margin:5px 0 0 -15px;}  h5{ font-size:115%; margin:5px 0 0 -15px;} h6 { font-size:110%; margin:5px 0 0 -15px;}p{margin-top:5px;} </style>
 
+This file contains working notes for the project [[https://github.com/Neil-Smithline/time-tracking-experiments][in this Github repository]]. I'm not one to tell you what to do with your time but visiting the Github repo first may be a good idea.
+
 * 2012
 *** 2012-07 July
 ***** 2012-07-18 Wednesday
