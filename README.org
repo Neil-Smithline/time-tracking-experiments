@@ -7,7 +7,7 @@ It wasn't until I heard about the [[http://en.wikipedia.org/wiki/Quantified_Self
   - Love for gadgets, in this instance, my Android smartphone.
   - Large yet ever growing love of [[http://orgmode.org][Org Mode]] for Emacs.
   - Recent discovery of [[https://github.com/novoid/Memacs][Memacs]] and ongoing discussions with Memacs' author [[https://github.com/novoid][novoid]] (AKA: [[https://twitter.com/n0v0id][@n0v0id]]).
-  - Nerdy "talents" though I've hard them called other things...
+  - Nerdy "talents" though I've heard them called other things...
 
 * My Goal
 Being an analytical kind of guy, my hope is that if I can keep accurate records of how I use my time I will be able to analyze and improve my time management skills going forward. Essentially, I am thinking that the best way for me to improve my time management skills is simply to better understand how I use my time. Once I understand that, designing strategies for better time management seems simple.
