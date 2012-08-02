@@ -2,12 +2,12 @@
 
 Journal
 
-#+STYLE: <style> .outline-2 { margin-left:15px;} .outline-3 { margin-left:15px;} .outline-4 { margin-left:15px;} .outline-5 { margin-left:15px;}  h2 {font-size:150%; margin:5px 0 0 -15px;} h3 { font-size:135%; margin:5px 0 0 -15px;} h4 { font-size:120%; margin:5px 0 0 -15px;}  h5 { font-size:110%; margin:5px 0 0 -15px;} p {margin-top:5px;}     </style>
+#+STYLE: <style> .outline-2 { margin-left:15px;} .outline-3 { margin-left:15px;} .outline-4 { margin-left:15px;} .outline-5 { margin-left:15px;} .outline-6 { margin-left:15px;} h2 {font-size:160%; margin:5px 0 0 -15px;} h3 { font-size:145; margin:5px 0 0 -15px;} h4 { font-size:130%; margin:5px 0 0 -15px;}  h5{ font-size:115%; margin:5px 0 0 -15px;} h6 { font-size:110%; margin:5px 0 0 -15px;}p{margin-top:5px;} </style>
 
 * 2012
 *** 2012-07 July
 ***** 2012-07-18 Wednesday
-******* Initial Thoughts About Software Stack [2012-07-18 Wed 20:29]
+******* [2012-07-18 Wed 20:29] Initial Thoughts About Software Stack
 I have some initial thoughts about the software stack that will be where I initially experiment, evaluate, and design. The software stack in reverse order is:
   - Org Mode & Emacs :: No explanation neceessary.
   - Memacs :: Will import the data into Emacs.
@@ -15,9 +15,41 @@ I have some initial thoughts about the software stack that will be where I initi
   - Time Recording Pro :: Android [[https://play.google.com/store/apps/details?id=com.dynamicg.timerecording.pro&feature=search_result#?t=W251bGwsMSwxLDEsImNvbS5keW5hbWljZy50aW1lcmVjb3JkaW5nLnBybyJd][app]] that will be input for activities. TRP has built-in integration with Gcal.
   - Android Reminder/Notification App :: An Android app that will notify me every N minutes (current thoughts are N=20) that I need to update my activities in TRP. I've only begun looking for reminder apps. [[https://play.google.com/store/apps/details?id=com.googlecode.mindbell&feature=search_result#?t=W251bGwsMSwyLDEsImNvbS5nb29nbGVjb2RlLm1pbmRiZWxsIl0.][Mindfullness Bell]] and [[https://play.google.com/store/apps/details?id=net.dinglisch.android.taskerm&feature=search_result#?t=W251bGwsMSwyLDEsIm5ldC5kaW5nbGlzY2guYW5kcm9pZC50YXNrZXJtIl0.][Tasker]] are two possibilities that I've looked at.
   - Custom Utility to convert Org Mode Tags into TRP Data :: TRP has native support for tasks and Org Mode supports tags. Having a 1-to-1 mapping between TRP tasks and Org Mode tags seems to provide many benefits. I do not believe (ie: I'm 99.99% certain) that there is an existing automated method to synchronize Org Mode tags and TRP tasks.
-******* Time Capturing Device [2012-07-18 Wed 20:26]
-        At least for the first go, I will focus on time capturing exclusively via my Android smartphone as I have that with me constantly. No effort will be spent trying to utilize other devices for time capture.
-******* Test 2 [2012-07-18 Wed 20:21]
-Testing to see if we have a reverse/prepend date tree work from capture template.
-******* First journal entry [2012-07-18 Wed 20:20]
-Testing....
+******* [2012-07-18 20:26] Time Capturing Device
+At least for the first go, I will focus on time capturing exclusively via my Android smartphone as I have that with me constantly. No effort will be spent trying to utilize other devices for time capture.
+***** 2012-07-21 Saturday
+******* Tracking Desktop Activity[2012-07-21 Sat 19:54]
+I've created 90% of a solution for tracking activities while I'm on my Mac OS X laptop utilizing [[http://manytricks.com/timesink/][Time Sink]]. The remaining 10% is to pull the data into [[http://orgmode.org][Org Mode]] for long term storage and analysis. See this blog posting for more details. This is an alternative strategy to using TRP and Mac-specific. I view it as providing a different facet of time usage.
+
+It basically works by tracking apps and window titles. Emacs kindly names the window with the file you're editing. I have modified shell buffer creation so that you are prompted for a name to associate with the shell buffer. Duplicates are handled by adding a unique integer. This allows you to track your time in Emacs.
+
+I use Postbox for email. Mail composition windows are named by the subject of the email. This can be used for categorization but there is not much consistency in email subjects. Still, it is something. Postbox provides no indication of time usage while you are reading email :-(
+*** 2012-08 August
+***** 2012-08-01 Wednesday
+
+******* Agenda --> TRP[2012-08-01 Wed 22:30]
+Have further flushed out the workflow, the mapping of Org Mode to TRP, and done a good chunk of implementation. The workflow is:
+  1. Use Org in my daily work using a special tag naming convention (details below).
+  2. Run a custom agenda command.
+  3. Export results of custom agenda formatted as a TRP backup file to a folder on my computer's Dropbox directory.
+  4. Import TRP backup file to TRP on my Android phone.
+  5. Use TRP to track my time on phone.
+  6. Use an interval timer to remind me to keep TRP up-to-date.
+  7. Have TRP sync with Google Calendar.
+  8. Use Memacs, or another app if needed, to bring the TRP calendar back into Org Mode.
+
+********* Tag Naming Convention
+Tags that begin with a `#' (ie: hashtags) denote a significant aspect of the task. The aspect can be subject, location, mood, etc... A task can have zero or more hashtags.
+
+Hashtags are similar to a 1-level hierarchy of tasks but, as a tag can have more than one hashtag, it is not a strict hierarchy.
+
+Hashtags should be created to help you quickly find tasks. For example, you may wish to use #work and #home hashtags, #fun and #chores hashtags, or all four hashtags. Whatever helps you find a task.
+
+Due to the functionality of TRP, you cannot have nested hastags or meta-hashtags. The hierarchy will always be one level deep.
+
+********* Org To TRP And Back Again
+Each Org Mode hashtag will correspond to a customer in TRP. While not the original intent, you can use TRP customers to implement a 1-level hierarchy.
+
+Each TRP hashtag/customer will have a list of all of the Org Mode tasks that correspond to that hashtag. Each task will include the name of a task along with all of the Org Mode tags associated with the task.
+
+As you check-in and check-out of tasks in TRP, it creates Gcal events for your tasks. The format of calendar events is configurable and can easily be configured such that Memacs imports TRP's Gcal data as Org Mode tasks and tags. This, combined with the Gcal event times brings a detailed history your time usage into Org Mode. Org Mode can then be used to archive and analyze the data.
