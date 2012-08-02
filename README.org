@@ -38,3 +38,6 @@ The documentation for this project uses [[http://pages.github.com/][Github Pages
 
 Available Pages:
   - [[http://neil-smithline.github.com/time-tracking-experiments/journal.org][Working Journal]]
+
+* Love To Hear From You
+If you have an interest in discussing this project please open an issue on its [[https://github.com/Neil-Smithline/time-tracking-experiments/issues][Github issue page]]. We can chat there and others can join in. The more the merrier (I hope).
